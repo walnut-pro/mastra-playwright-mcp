@@ -1,6 +1,6 @@
 import { Mastra } from '@mastra/core/mastra';
 import { createLogger } from '@mastra/core/logger';
-import { playwrightAgent } from './agents/mcp';
+import { playwrightAgent } from './agents/playwright';
 
 export const mastra = new Mastra({
   agents: { playwrightAgent },
